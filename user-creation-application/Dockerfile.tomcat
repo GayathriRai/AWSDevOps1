@@ -5,8 +5,8 @@ FROM tomcat:10.1-jdk17
 RUN rm -rf /usr/local/tomcat/webapps/*
 
 # Copy WAR file
-COPY /home/ec2-user/AWSDevOps1/AWSDevOps1/user-creation-application/target/user-creation-application-0.0.1-SNAPSHOT.war \
-     /usr/local/tomcat/webapps/ROOT.war
+COPY target/user-creation-application-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps/ROOT.war
+
 
 # Expose Tomcat port
 EXPOSE 8080
