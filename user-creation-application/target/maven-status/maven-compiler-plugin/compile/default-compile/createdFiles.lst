@@ -1,0 +1,4 @@
+com\app\usercreation\repository\UserRepository.class
+com\app\usercreation\controller\UserController.class
+com\app\usercreation\entity\User.class
+com\app\usercreation\UserCreationApplication.class
